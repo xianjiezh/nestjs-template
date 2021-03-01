@@ -18,8 +18,8 @@ export class HttpExceptionFilter implements ExceptionFilter {
     Logger.log('错误提示', message);
     const errorResponse = {
       data: {
-     	 error: message,
-    	},
+        error: message,
+      },
       message: '',
       code: 1,
       url: request.originalUrl,
