@@ -1,0 +1,6 @@
+db:
+  db_name: 'page'
+  user_name: 'postgres'
+  host: 'localhost'
+  password: '123456'
+  port: 7777
